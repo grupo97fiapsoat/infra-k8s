@@ -38,6 +38,31 @@ Este repositório utiliza **GitHub Secrets** para armazenar credenciais sensíve
 As credenciais são usadas apenas pelo workflow para autenticar na AWS e aplicar o Terraform.
 
 ---
+## 🔄 CI/CD
+
+O deploy automatizado é feito via GitHub Actions:
+
+- Proteção de branch ativa
+- Merge via Pull Request obrigatório
+- Workflow executa `terraform apply` automaticamente
+
+---
+
+## ✅ Requisitos atendidos
+
+- [x] Infra separada em repositório dedicado
+- [x] Provisionamento via Terraform
+- [x] Deploy automatizado com GitHub Actions
+- [x] Uso de Secrets para segurança
+- [x] Branch protegida com PR obrigatório
+
+---
+
+## 📎 Referência
+
+Este repositório faz parte da arquitetura do projeto TechChallenge.
+
+---
 
 ## 📄 Como aplicar manualmente (opcional)
 
